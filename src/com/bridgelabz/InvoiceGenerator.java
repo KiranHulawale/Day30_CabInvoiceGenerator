@@ -13,7 +13,7 @@ public class InvoiceGenerator {
 
     int costPerKm = 10;
     int costPerMin = 1;
-    //int minFare = 5;
+   
     public double generateInvoice(double distance, int time) {
 
         double fare =  distance * costPerKm + time * costPerMin;
