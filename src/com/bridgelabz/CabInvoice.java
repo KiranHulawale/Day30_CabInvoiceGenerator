@@ -10,7 +10,7 @@ public class CabInvoice {
                 new Ride(5,8)
         };
         System.out.println(invoice.multipleFare(rides));
-
+        System.out.println(invoice.getInvoice(1));
     }
 
 
